@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta name="description" content="the best site for webhook | افضل موقع لعمل ويب هوك">
+  <meta name="keywords" content="webhook,telegram,bot,telegram bot,laganty,php bot,L_DEVv,ويب هوك,عمل ويب هوك,بوتات,بوتات تليجرام">
+  <meta name="author" content="laganty dev">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="icon" href="img/favicon.ico">
+      <script type="text/javascript">
+        title = "webhook | ";
+        position = 0;
+        function scrolltitle() {
+            document.title = title.substring(position, title.length) + title.substring(0, position);
+            position++;
+            if (position > title.length) position = 0;
+            titleScroll = window.setTimeout(scrolltitle, 170);
+        }
+        scrolltitle();
+      </script>
+  <link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,600,700,800" rel="stylesheet" />
+  <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Changa:wght@300&display=swap" rel="stylesheet"> 
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/sweetalert/2.1.2/sweetalert.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/lc.css" rel="stylesheet" />
+</head>
+<body>
+  <div class="wrapper">
+    <div class="main-panel">
+      <div class="content">
+        <div class="row">
+          <div class="col-md-9" align="center">
+            <div class="card">
+              <div class="card-header">
+                <h4 class="card-title ar" align="center">عمل ويب هوك</h4>
+                  </div>
+		<form name="form">
+					<div id="trg">
+					<input id="host" name="host" type="text" class="form-control ar text-danger" placeholder="http://whatever.com/whateverbot.php">
+                  </div>
+				  <div class="form-group">                      
+                          		<div id="trg">
+					<input id="token" name="token" type="text" class="form-control ar text-danger" placeholder="8352739405:AAFVDU_MZtTrRwTW-xqO13i_hnstIa0kwMw">
+                  </div>
+					      <div class="card-footer">
+                             <button type="button" onclick="setwebhook()" class="btn btn-danger ar btn-simple btn-round pull-right" style="width:100%;">Set Webhook</butto>
+						    </div>
+							<br>
+							<br>				
+			</form>
+                        </div>
+                      </div>
+                    </div>         					
+                   	
+          <div class="col-md-9" align="center">
+            <div class="card">
+              <div class="card-body">
+              <p id="mwl"></p>
+                </div>
+                <code class="ar"><p>made with <i class="fa fa-heart" style="color:red"></i> by <a href="https://t.me/L_DEVv">@L_DEVv</a></p></code>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/chartjs.min.js"></script>
+  <script src="js/webhook.js"></script>
+</body>
+</html>
